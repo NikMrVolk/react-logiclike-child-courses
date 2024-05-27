@@ -3,7 +3,7 @@ import clsx from 'clsx'
 
 import styles from './Button.module.scss'
 
-type ButtonVariant = 'green'
+type ButtonVariant = 'green' | 'standard'
 interface ButtonProps extends React.ComponentProps<'button'> {
     loading?: boolean
     variant?: ButtonVariant
@@ -11,7 +11,7 @@ interface ButtonProps extends React.ComponentProps<'button'> {
 }
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-    ({ children, variant = 'green', className, loading, ...props }, ref) => (
+    ({ children, variant = 'standard', className, loading, ...props }, ref) => (
         <button
             className={clsx(
                 styles.button,

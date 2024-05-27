@@ -18,6 +18,19 @@
     }
 }
 
+.standard {
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+        background-color: $gray;
+    }
+
+    &:disabled:not(.loading) {
+        border-color: $gray;
+    }
+}
+
 .green {
     border: none;
     background-color: $green;
@@ -29,10 +42,6 @@
 
     &:disabled:not(.loading) {
         border-color: $green-disabled;
-    }
-
-    &.loading:before {
-        border-top-color: $white;
     }
 }
 
