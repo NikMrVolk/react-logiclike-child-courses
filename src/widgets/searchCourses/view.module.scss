@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 24px;
 
-    @media (min-width: 768px) {
+    @media (min-width: 900px) {
         display: grid;
         grid-template-columns: 264px 1fr;
     }

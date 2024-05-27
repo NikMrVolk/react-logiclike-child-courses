@@ -1,6 +1,15 @@
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, minmax(177px, 393px));
-    gap: 18px;
+    grid-template-columns: 1fr;
+    gap: 10px;
     height: fit-content;
+
+    @media (min-width: 390px) {
+        grid-template-columns: repeat(2, minmax(177px, 393px));
+    }
+
+    @media (min-width: 640px) {
+        grid-template-columns: repeat(3, minmax(100px, 393px));
+        gap: 18px;
+    }
 }

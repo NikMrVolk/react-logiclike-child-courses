@@ -1,10 +1,11 @@
+import { Layout } from './components/layout/Layout'
 import { SearchCourses } from './widgets'
 
 const App = () => {
     return (
-        <main style={{ padding: '62px' }}>
+        <Layout>
             <SearchCourses />
-        </main>
+        </Layout>
     )
 }
 
