@@ -1,11 +1,10 @@
-import { Button } from './components/UI/button/Button'
+import { SearchCourses } from './widgets'
 
 const App = () => {
     return (
-        <div>
-            work
-            <Button>123</Button>
-        </div>
+        <main style={{ padding: '62px' }}>
+            <SearchCourses />
+        </main>
     )
 }
 
