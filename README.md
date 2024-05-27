@@ -1,4 +1,4 @@
-# [Small tickets app]()
+# [Children courses app](https://children-courses.netlify.app/)
 
 Application is ticket issuing page with filters in accordance with the reference.
 
@@ -8,7 +8,7 @@ Application is ticket issuing page with filters in accordance with the reference
 - filtering courses by tags
 - mobile and tablet adaptive display
 
-## Check project using [this link]() or run it locally using instructions below:
+## Check project using [this link](https://children-courses.netlify.app/) or run it locally using instructions below:
 1. Clone the repository:
 
 git clone https://github.com/NikMrVolk/react-tickets-app.git
