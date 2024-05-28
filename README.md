@@ -1,6 +1,6 @@
 # [Children courses app](https://children-courses.netlify.app/)
 
-Application is ticket issuing page with filters in accordance with the reference.
+Application about children courses list with ability to filter.
 
 ## Functionality
 
